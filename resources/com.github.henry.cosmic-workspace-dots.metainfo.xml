@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="addon">
+  <id>com.github.henry.cosmic-workspace-dots</id>
+  <name>COSMIC Workspace Dots</name>
+  <summary>Workspaces as circles or squares, following the theme</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MPL-2.0</project_license>
+  <provides>
+    <id>com.system76.CosmicApplet</id>
+  </provides>
+  <description>
+    <p>Shows workspaces in the COSMIC panel as dots (squares with square-cornered themes). The active one uses the accent color; click to switch.</p>
+  </description>
+</component>

@@ -1,0 +1,27 @@
+[package]
+name = "cosmic-workspace-dots"
+version = "1.0.0"
+edition = "2024"
+license = "MPL-2.0"
+description = "A COSMIC panel applet showing workspaces as dots or squares"
+
+[dependencies]
+libcosmic = { git = "https://github.com/pop-os/libcosmic.git", features = [
+    "applet",
+    "tokio",
+    "wayland",
+    "winit",
+] }
+cosmic-client-toolkit = { git = "https://github.com/pop-os/cosmic-protocols", rev = "32283d7" }
+
+[lints.rust]
+warnings = "deny"
+unsafe_code = "deny"
+
+[lints.clippy]
+all = { level = "deny", priority = -1 }
+unwrap_used = "deny"
+dbg_macro = "deny"
+unimplemented = "deny"
+redundant_clone = "deny"
+wildcard_dependencies = "deny"

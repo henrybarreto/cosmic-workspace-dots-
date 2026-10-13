@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=COSMIC Workspace Dots
+Comment=Show workspaces as circles or squares following the theme
+Type=Application
+Exec=cosmic-workspace-dots
+Icon=view-grid-symbolic
+Terminal=false
+NoDisplay=true
+Categories=System;
+X-CosmicApplet=true
+X-CosmicShrinkable=true
